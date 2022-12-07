@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Google Map</title>
+    <link rel="stylesheet" href="/css/normalize.css">
+    <link rel="stylesheet" href="/css/style.css">
+</head>
+<body>
+    <div class="map__container">
+        <div class="map__body">
+            <div id="map" class="map"></div>
+            <div class="filter__wrap">
+                <label for="map-filter" class="filter__label">Тип будівлі:</label>
+                <select class="map__filter" id="map-filter">
+                    <option value="">Всі</option>
+                    <option value="office">Офіси</option>
+                    <option value="warehouse">Склади</option>
+                </select>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://maps.googleapis.com/maps/api/js?sensor=false"></script>
+    <script src="/js/main.js"></script>
+</body>
+</html>

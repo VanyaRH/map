@@ -1,0 +1,38 @@
+.map__container{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.map__body{
+    width: 500px;
+    height: 400px;
+    position: relative;
+}
+.map__body .map{
+    width: 100%;
+    height: 100%;
+}
+.filter__wrap{
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    min-width: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    padding: 10px;
+    background-color: #fff;
+}
+.map__filter{
+    width: 100%;
+    margin-top: 5px;
+}
+
+@media(max-width: 768px){
+    .map__body{
+        width: 100%;
+    }
+}
