@@ -4,8 +4,6 @@ class Map{
         this.renderMarkers = [];
         this.map = null;
         this.center = null;
-
-        this.Init();
     }
 
     Init(){
@@ -67,4 +65,5 @@ class Map{
     }
 }
 
-const initMap = new Map();
+const gMap = new Map();
+gMap.Init();
